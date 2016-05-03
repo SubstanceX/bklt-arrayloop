@@ -19,8 +19,12 @@
 	  //  1. Create an array called favoriteMovies with strings of your 5 favorite movies.
           //  2. Use a for loop to loop through the array and insert the values into the ul#favorite-movies-list
           //  HINT: Start by just printing the movies to the console then get them to show in the HTML
-          
-          
+          var favoriteMovies = ["Avengers: Age of Ultron","Pixels","Deadpool","Iron Man 3","Superman v. Batman"];
+          for(var i = 0; i < favoriteMovies.length; i++) {
+            console.log(favoriteMovies[i]);
+            
+          }
+          $("#favorite-movies-list").appendTo(favoriteMovies);
           // Extra Credit:
           //  1. Can you add a button to make the html fill only once the button is clicked?
           //  2. Can you add a field for the user to add their own favorite movie?
